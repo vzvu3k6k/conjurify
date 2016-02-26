@@ -20,7 +20,9 @@
   "homepage": "https://github.com/vzvu3k6k/conjurify#readme",
   "license": "CC0-1.0",
   "main": "lib/index.js",
-  "publishConfig": "public",
+  "publishConfig": {
+    "access": "public"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/vzvu3k6k/conjurify.git"
