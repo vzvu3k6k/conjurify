@@ -1,7 +1,7 @@
 {
   "name": "@vzvu3k6k/conjurify",
-  "version": "0.1.0",
   "description": "require modules isolated by Browserify",
+  "version": "0.1.0",
   "author": "vzvu3k6k <vzvu3k6k@gmail.com>",
   "devDependencies": {
     "babel-cli": "^6.5.1",
@@ -14,12 +14,12 @@
   "files": [
     "lib"
   ],
+  "license": "CC0-1.0",
+  "main": "lib/index.js",
   "publishConfig": "public",
   "scripts": {
     "build": "babel src -d lib",
     "lint": "eslint *.js test/*.js",
     "test": "babel-node test/test.js"
-  },
-  "license": "CC0-1.0",
-  "main": "lib/index.js"
+  }
 }
