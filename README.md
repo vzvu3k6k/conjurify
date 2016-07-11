@@ -1,6 +1,6 @@
 # conjurify
 
-Userscripts can't access modules linked by Browserify as they are isolates by default.
+Userscripts can't access modules linked by Browserify as they are isolated by default.
 
 Conjurify enables you to peek these modules.
 
